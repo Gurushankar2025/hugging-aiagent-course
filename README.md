@@ -45,18 +45,18 @@ Fine-tunes a Transformer model to classify resumes into categories for recruitme
 ```bash
 pip install transformers
 
-
 ---
 
-##  **How to Run**
+## 🚀 How to Run
 
 This repo contains **Google Colab notebooks** for each project.  
 No local setup is required — just open in Colab and run.
 
 ### 1 NLP Pipelines (Multiple Tasks in One Notebook)
-**File:** `pipelines/pipeline.ipynb`  
+**File:** `pipelines/pipelines.ipynb`  
 
-Run:
+
+**Run:**
 1. Open the notebook in Google Colab.
 2. Select `Runtime` → `Run all`.
 3. Each section in the notebook will demonstrate one task.
@@ -64,10 +64,8 @@ Run:
 ---
 
 ### 2 Fine-tuning: Resume Screening Model
-**File:** `fine_tuning/resume_screening_trainer.ipynb`
-
-
-Run:
+**File:** `fine_tuning/resume_screening_trainer.ipynb`  
+Steps:
 1. Open the notebook in Colab.
 2. Upload your dataset or use a sample.
 3. Run all cells to train and evaluate the model.
