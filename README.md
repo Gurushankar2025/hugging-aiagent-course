@@ -47,25 +47,18 @@ pip install transformers
 
 ---
 
-## 🚀 How to Run
+## **How to Run**
 
-This repo contains **Google Colab notebooks** for each project.  
-No local setup is required — just open in Colab and run.
+### 1. NLP Pipelines
+1. Open `pipelines/pipelines.ipynb` in Google Colab
+2. Install dependencies:
+   pip install transformers datasets
+3. Run all cells to view outputs for Sentiment Analysis, Zero-Shot Classification, Question Answering, Text Generation, Summarization, and Translation. 
 
-### 1 NLP Pipelines (Multiple Tasks in One Notebook)
-**File:** `pipelines/pipelines.ipynb`  
-
-
-**Run:**
-1. Open the notebook in Google Colab.
-2. Select `Runtime` → `Run all`.
-3. Each section in the notebook will demonstrate one task.
-
----
-
-### 2 Fine-tuning: Resume Screening Model
-**File:** `fine_tuning/resume_screening_trainer.ipynb`  
-Steps:
-1. Open the notebook in Colab.
-2. Upload your dataset or use a sample.
-3. Run all cells to train and evaluate the model.
+(UPCOMING)
+### 2. Fine-Tuning – Resume Screening
+1. Open `fine_tuning/resume_screening_trainer.ipynb` in Google Colab
+2. Install dependencies:
+   pip install transformers datasets
+3. Upload your dataset or load it from the Hugging Face Hub.
+4. Run all cells to train and evaluate the model.
