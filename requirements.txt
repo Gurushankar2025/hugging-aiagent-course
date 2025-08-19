@@ -1,0 +1,16 @@
+# Hugging Face & NLP
+transformers
+datasets
+evaluate
+
+# Data processing
+numpy
+pandas
+scikit-learn
+
+# Visualization
+matplotlib
+seaborn
+
+# Experiment tracking
+wandb
