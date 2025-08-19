@@ -1,11 +1,11 @@
-## **Hugging Face Transformers – NLP Projects**
+# **Hugging Face Transformers – NLP Projects**
 ---
 
 This repository contains my learning and practice projects using the Hugging Face Transformers library.
 Currently, it includes:
 
 ## **📌 Contents**
-**1. Pipelines Project**
+### **1. Pipelines Project**
 
 Demonstrates the use of transformers.pipeline for multiple NLP tasks, grouped under:
 
@@ -15,7 +15,7 @@ Decoder Models
 
 Encoder–Decoder Models
 
-## **Implemented Tasks & Example Models**
+### **Implemented Tasks & Example Models**
 
 | Task | Example Models |
 |------|----------------|
