@@ -1,10 +1,10 @@
-# **Hugging Face Transformers – NLP Projects**
+## **Hugging Face Transformers – NLP Projects**
 
 This repository contains my learning and practice projects using the Hugging Face Transformers library.
 Currently, it includes:
 
-📌 Contents
-1. Pipelines Project
+## **📌 Contents**
+**1. Pipelines Project**
 
 Demonstrates the use of transformers.pipeline for multiple NLP tasks, grouped under:
 
@@ -14,18 +14,20 @@ Decoder Models
 
 Encoder–Decoder Models
 
-Implemented Tasks & Example Models
+## **Implemented Tasks & Example Models**
 
-Task	Example Models
+**Task	Example Models**
+
 Sentiment Analysis	distilbert-base-uncased-finetuned-sst-2-english
 Zero-Shot Classification	facebook/bart-large-mnli
 Question Answering	distilbert-base-cased-distilled-squad
 Text Generation	gpt2
 Summarization	facebook/bart-large-cnn
 Translation	Helsinki-NLP/opus-mt-en-fr
+
 ----
 
-## **2. Fine-Tuning: Resume Screening Model**
+### **2. Fine-Tuning: Resume Screening Model**
 
 Fine-tunes a Transformer model to classify resumes into categories for recruitment screening.
 
@@ -33,7 +35,7 @@ Base Model: bert-base-uncased (can be replaced as needed)
 
 Approach: Hugging Face Trainer API
 
-Dataset: Custom dataset with labeled resumes (manually uploaded in Kaggle)
+Dataset: Custom dataset with labeled resumes (manually uploaded in Kaggle) available in the same repo dataset
 
 Workflow:
 
@@ -43,20 +45,19 @@ Model training & evaluation
 
 Save & load fine-tuned model
 
-Goal: Automate initial resume shortlisting for recruiters.
+Goal: Automate  resume shortlisting for recruiters.
 
-Note: The notebook is already coded and can be run directly in Kaggle. GitHub preview may not render properly; open in Kaggle to run.
 
-🛠 Technologies Used
+##  **🛠 Technologies Used**
 
 Python 3.9+
 
 Hugging Face Transformers
 
-💻 Installation
+##  **💻 Installation**
 pip install transformers datasets
 
-🚀 How to Run
+## **🚀 How to Run**
 1. NLP Pipelines
 
 Open pipelines/pipelines.ipynb in Google Colab or Kaggle.
