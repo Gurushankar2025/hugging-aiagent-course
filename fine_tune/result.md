@@ -31,7 +31,7 @@
 
 > The evaluation accuracy from the first epoch is already 1.0, forming a straight line throughout training.
 
-#### (I have trained the model with this dataset multiple times, each time with a simple tweak like stratifying the data, shuffle etc, and the provided results are from one of the curves from multiple curves on multiple runs. To other curves(here lines graph check the assets folder) )
+#### (The model was trained multiple times on the dataset [in the dataset folder] with minor variations (e.g., stratification, shuffling). The results shown here are from one representative run. Other training curves are available in the assets folder )
 ---
 
 ## Confusion Matrix
