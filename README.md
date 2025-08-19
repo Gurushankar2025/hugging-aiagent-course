@@ -17,12 +17,16 @@ Encoder–Decoder Models
 ## **Implemented Tasks & Example Models**
 
 **Task	Example Models**
-
 Sentiment Analysis	distilbert-base-uncased-finetuned-sst-2-english
+
 Zero-Shot Classification	facebook/bart-large-mnli
+
 Question Answering	distilbert-base-cased-distilled-squad
+
 Text Generation	gpt2
+
 Summarization	facebook/bart-large-cnn
+
 Translation	Helsinki-NLP/opus-mt-en-fr
 
 ----
