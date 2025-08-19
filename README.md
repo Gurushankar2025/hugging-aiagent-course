@@ -23,7 +23,9 @@ Question Answering	distilbert-base-cased-distilled-squad
 Text Generation	gpt2
 Summarization	facebook/bart-large-cnn
 Translation	Helsinki-NLP/opus-mt-en-fr
-2. Fine-Tuning: Resume Screening Model
+----
+
+## **2. Fine-Tuning: Resume Screening Model**
 
 Fine-tunes a Transformer model to classify resumes into categories for recruitment screening.
 
